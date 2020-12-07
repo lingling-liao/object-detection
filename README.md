@@ -59,7 +59,7 @@ apt update
 apt install libgl1-mesa-glx
 ```
 
-## Recommended Directory Structure
+## Recommended directory structure
 
 ```bash
 .
@@ -108,7 +108,7 @@ python train_object_detection_model.py \
     --model_dir=/tf/saved_model
 ```
 
-## Object Detection From Checkpoint
+## Object detection from checkpoint
 
 ```
 python train_object_detection_model.py \
