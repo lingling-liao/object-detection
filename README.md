@@ -58,3 +58,23 @@ python object_detection/builders/model_builder_tf2_test.py
 apt update
 apt install libgl1-mesa-glx
 ```
+
+## Recommended Directory Structure for create tfrecord
+
+```bash
+.
+├── annotations/
+│   ├── 00001.xml
+│   ├── 00002.xml
+│   ├── 00003.xml
+│   └── ...
+└── images/
+│   ├── 00001.jpg
+│   ├── 00002.jpg
+│   ├── 00003.jpg
+│   └── ...
+└── sets/
+│   ├── train.txt
+│   ├── valid.txt
+│   └── test.txt
+```
