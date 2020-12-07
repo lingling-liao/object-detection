@@ -139,8 +139,8 @@ if __name__ == '__main__':
     parser.add_argument('--path_to_ckpt')
     parser.add_argument('--path_to_cfg')
     parser.add_argument('--data_dir')
-    parser.add_argument('--test_set')
     parser.add_argument('--detection_dir')
+    parser.add_argument('--test_set')
     args = parser.parse_args()
     
     main(args.path_to_ckpt, args.path_to_cfg, args.data_dir,
