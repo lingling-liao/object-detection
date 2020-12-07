@@ -92,3 +92,14 @@ apt install libgl1-mesa-glx
 │   └── pipeline.config
 └── pipeline.config
 ```
+
+## Training a model
+
+Running the command:
+
+```
+python train_object_detection_model.py \
+    --data_dir=/tf/data
+    --pipeline_config_path=/tf/pipeline.config
+    --model_dir=/tf/saved_model
+```
