@@ -1,4 +1,4 @@
-# object-detection
+# Object Detection
 Train a object detection model with the TensorFlow Object Detection API.
 
 ## Official Docker images for TensorFlow
