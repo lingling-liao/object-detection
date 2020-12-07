@@ -107,3 +107,14 @@ python train_object_detection_model.py \
     --pipeline_config_path=/tf/pipeline.config \
     --model_dir=/tf/saved_model
 ```
+
+## Object Detection From Checkpoint
+
+```
+python train_object_detection_model.py \
+    --path_to_ckpt=/tf/saved_model/ckpt-1 \
+    --path_to_cfg=/tf/pipeline.config \
+    --data_dir=/tf/data \
+    --test_set=test \
+    --detection_dir=/tf/detection_result
+```
