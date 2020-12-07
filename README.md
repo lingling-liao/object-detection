@@ -63,19 +63,32 @@ apt install libgl1-mesa-glx
 
 ```bash
 .
-├── annotations/
-│   ├── 00001.xml
-│   ├── 00002.xml
-│   ├── 00003.xml
-│   └── ...
-└── images/
-│   ├── 00001.jpg
-│   ├── 00002.jpg
-│   ├── 00003.jpg
-│   └── ...
-└── sets/
-│   ├── train.txt
-│   ├── valid.txt
-│   └── test.txt
-└── label_map.pbtxt
+├── data/
+│   ├── annotations/
+│   │   ├── 00001.xml
+│   │   ├── 00002.xml
+│   │   ├── 00003.xml
+│   │   └── ...
+|   └── images/
+│   │   ├── 00001.jpg
+│   │   ├── 00002.jpg
+│   │   ├── 00003.jpg
+│   │   └── ...
+│   └── sets/
+│   │   ├── train.txt
+│   │   ├── valid.txt
+│   │   └── test.txt
+│   └── label_map.pbtxt
+├── fine_tune_checkpoint/
+│   ├── checkpoint/
+│   │   ├── checkpoint
+│   │   ├── ckpt-0.data-00000-of-00001
+│   │   └── ckpt-0.index
+│   ├── saved_model/
+│   │   ├── variables/
+│   │   │   ├── variables.data-00000-of-00001
+│   │   │   └── variables.index
+│   │   └── saved_model.pb
+│   └── pipeline.config
+└── pipeline.config
 ```
