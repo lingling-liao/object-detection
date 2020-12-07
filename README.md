@@ -74,7 +74,8 @@ apt install libgl1-mesa-glx
 │   ├── 00003.jpg
 │   └── ...
 └── sets/
-    ├── train.txt
-    ├── valid.txt
-    └── test.txt
+│   ├── train.txt
+│   ├── valid.txt
+│   └── test.txt
+└── label_map.pbtxt
 ```
