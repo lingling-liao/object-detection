@@ -143,5 +143,5 @@ if __name__ == '__main__':
     parser.add_argument('--detection_dir')
     args = parser.parse_args()
     
-    main(args.path_to_ckpt, args.path_to_cfg, args.data_dir, args.detection_dir,
-         args.test_set)
+    main(args.path_to_ckpt, args.path_to_cfg, args.data_dir,
+         args.detection_dir, args.test_set)
