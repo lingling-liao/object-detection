@@ -105,14 +105,14 @@ Running the command:
 python train_object_detection_model.py \
     --data_dir=/tf/data \
     --pipeline_config_path=/tf/pipeline.config \
-    --model_dir=/tf/saved_model
+    --model_dir=/tf/saved_ckpt
 ```
 
 ## Object detection from checkpoint
 
 ```
 python train_object_detection_model.py \
-    --path_to_ckpt=/tf/saved_model/ckpt-1 \
+    --path_to_ckpt=/tf/saved_ckpt/ckpt-1 \
     --path_to_cfg=/tf/pipeline.config \
     --data_dir=/tf/data \
     --test_set=test \
