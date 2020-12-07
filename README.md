@@ -103,3 +103,7 @@ python train_object_detection_model.py \
     --pipeline_config_path=/tf/pipeline.config \
     --model_dir=/tf/saved_model
 ```
+
+## Download sample data
+
+https://drive.google.com/drive/folders/1UBVgNKIDbCDlU8-62s0jQzakl5nrFPS2?usp=sharing
