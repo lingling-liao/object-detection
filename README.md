@@ -59,7 +59,7 @@ apt update
 apt install libgl1-mesa-glx
 ```
 
-## Recommended Directory Structure for create tfrecord
+## Recommended Directory Structure
 
 ```bash
 .
