@@ -69,12 +69,12 @@ apt install libgl1-mesa-glx
 │   │   ├── 00002.xml
 │   │   ├── 00003.xml
 │   │   └── ...
-|   └── images/
+|   ├── images/
 │   │   ├── 00001.jpg
 │   │   ├── 00002.jpg
 │   │   ├── 00003.jpg
 │   │   └── ...
-│   └── sets/
+│   ├── sets/
 │   │   ├── train.txt
 │   │   ├── valid.txt
 │   │   └── test.txt
