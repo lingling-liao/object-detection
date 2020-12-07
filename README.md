@@ -25,7 +25,7 @@ unzip -o $PROTOC_ZIP -d /usr/local 'include/*'
 rm -f $PROTOC_ZIP
 ```
 
-###### Upgrade pip
+Upgrade pip
 
 ```
 python -m pip install --upgrade pip
@@ -37,7 +37,7 @@ python -m pip install --upgrade pip
 git clone https://github.com/tensorflow/models.git
 ```
 
-###### Python Package Installation
+Python Package Installation
 
 ```
 cd models/research
@@ -46,7 +46,7 @@ cp object_detection/packages/tf2/setup.py .
 python -m pip install --use-feature=2020-resolver .
 ```
 
-###### Test the installation.
+Test the installation.
 
 ```
 python object_detection/builders/model_builder_tf2_test.py
