@@ -111,7 +111,7 @@ python train_object_detection_model.py \
 ## Object detection from checkpoint
 
 ```
-python train_object_detection_model.py \
+python plot_object_detection_checkpoint.py \
     --path_to_ckpt=/tf/saved_ckpt/ckpt-1 \
     --path_to_cfg=/tf/pipeline.config \
     --data_dir=/tf/data \
