@@ -115,6 +115,6 @@ python plot_object_detection_checkpoint.py \
     --path_to_ckpt=/tf/saved_ckpt/ckpt-1 \
     --path_to_cfg=/tf/pipeline.config \
     --data_dir=/tf/data \
-    --test_set=test \
-    --detection_dir=/tf/detection_result
+    --detection_dir=/tf/detection_result \
+    --test_set=test
 ```
