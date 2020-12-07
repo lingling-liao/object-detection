@@ -99,7 +99,7 @@ Running the command:
 
 ```
 python train_object_detection_model.py \
-    --data_dir=/tf/data
-    --pipeline_config_path=/tf/pipeline.config
+    --data_dir=/tf/data \
+    --pipeline_config_path=/tf/pipeline.config \
     --model_dir=/tf/saved_model
 ```
